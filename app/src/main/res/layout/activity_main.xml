@@ -39,7 +39,7 @@
                 android:gravity="end"
                 android:textColor="#b7b09c"
                 android:textSize="48sp"
-                android:text="i'm calC"
+                android:text="0"
                 android:textStyle="bold"
                 android:maxLines="1"
                 android:layout_marginTop="8dp"
@@ -73,15 +73,15 @@
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:text="AC"
-                android:background="@drawable/button_operator_background"/>
+                android:text="C"
+                android:background="@drawable/new_operator"/>
 
             <Button android:id="@+id/backspaceButton"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:text="⌫"
-                android:background="@drawable/button_operator_background"/>
+                android:background="@drawable/new_operator"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/percentageButton"
@@ -89,7 +89,7 @@
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
                 android:text="%"
-                android:background="@drawable/button_operator_background"/>
+                android:background="@drawable/new_operator"/>
 
             <Button android:id="@+id/divideButton"
                 style="@style/CalculatorButton"
@@ -122,11 +122,11 @@
                 android:text="9"
                 android:background="@drawable/button_background"/>
 
-            <Button android:id="@+id/addButton"
+            <Button android:id="@+id/multiplyButton"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:text="+"
+                android:text="*"
                 android:background="@drawable/button_operator_background"/>
 
 <!--            row 3-->
@@ -184,11 +184,11 @@
                 android:text="3"
                 android:background="@drawable/button_background"/>
 
-            <Button android:id="@+id/multiplyButton"
+            <Button android:id="@+id/addButton"
                 style="@style/CalculatorButton"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:text="*"
+                android:text="+"
                 android:background="@drawable/button_operator_background"/>
 
 <!--            row 5-->
